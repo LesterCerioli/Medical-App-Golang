@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Executable files
+main
+
+# Go specific
+*.exe
+*.test
+*.out
+*.log
+*.prof
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go Modules
+/go.sum
+/go.mod
+
+# Go workspace file
+*.work
+
+# Logs and debug output
+*.log
+
+# Test result files
+*.test
+*.prof
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Fiber specific
+# Temporary files used by Fiber during development
+.tmp/
+
+# Environment files
+.env
+
+# Docker related
+docker-compose.yml
+Dockerfile
+*.dockerfile
+.dockerignore
+
+# Compiled output
+/build/
+dist/
+
+# Generated code files
+*.gen.go
